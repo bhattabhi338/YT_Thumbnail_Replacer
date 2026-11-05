@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Random YouTube Thumbnails",
+  "version": "1.0",
+  "description": "Replaces YouTube thumbnails with a random auto-generated frame from the video.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
